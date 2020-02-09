@@ -1,0 +1,152 @@
+html {
+  font-family: "Space Mono", monospace;
+  background-color: black;
+  scroll-behavior: smooth;
+  padding:0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body > * {
+  flex-basis: 100%;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu {
+  justify-content: right;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  border-radius: 17px;
+}
+
+.menu a {
+  flex-basis: 100%;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 1%;
+}
+
+.menu a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.35s;
+  font-weight: 900;
+}
+
+.planetContainer {
+  display: flex;
+  color: white;
+  flex-direction: wraps;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.moonTitle {
+  
+  flex: 2;
+  text-align: center;
+  padding:0 2%;
+  font-size: 20px;
+}
+
+.Moon {
+  
+  flex: 1;
+  width: 100%;
+  height: auto;
+  padding:0 2%;
+}
+
+.MoonDesc {
+  
+  flex: 2;
+  text-align: center;
+  padding:0 2%;
+  background-color: white;
+  color: black;
+  margin: 10px;
+}
+
+.ButtonContainer {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 7%;
+  
+  font-weight: bold;
+
+}
+
+.rightButton {
+  flex: 1;
+  font-family: "Space Mono", monospace;
+  max-width: 90px;
+  font-size: 15px;
+  transition: 0.3s;
+  background-color: black;
+  border: none;
+  color: white;
+  
+
+}
+.rightButton:hover{
+
+  color: black;
+  background-color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  transition: 0.3s;
+
+}
+.leftButton {
+  flex: 1;
+  font-family: "Space Mono", monospace;
+  max-width: 90px;
+  font-size: 15px;
+  transition: 0.3s;
+  background-color: black;
+  border: none;
+  color: white;
+  
+}
+
+.leftButton:hover{
+  color: black;
+  background-color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  transition: 0.3s;
+
+}
